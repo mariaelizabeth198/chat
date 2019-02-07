@@ -77,9 +77,9 @@
 		4EDBCB3A220B553700603938 = {
 			isa = PBXGroup;
 			children = (
-				4EDBCB45220B553700603938 /* chat */,
-				4EDBCB5A220B553900603938 /* chatTests */,
-				4EDBCB65220B553900603938 /* chatUITests */,
+				4EDBCB45220B553700603938 /* Chat */,
+				4EDBCB5A220B553900603938 /* ChatTests */,
+				4EDBCB65220B553900603938 /* ChatUITests */,
 				4EDBCB44220B553700603938 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,7 +94,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4EDBCB45220B553700603938 /* chat */ = {
+		4EDBCB45220B553700603938 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
 				4EDBCB46220B553700603938 /* AppDelegate.swift */,
@@ -104,25 +104,25 @@
 				4EDBCB4F220B553900603938 /* LaunchScreen.storyboard */,
 				4EDBCB52220B553900603938 /* Info.plist */,
 			);
-			path = chat;
+			path = Chat;
 			sourceTree = "<group>";
 		};
-		4EDBCB5A220B553900603938 /* chatTests */ = {
+		4EDBCB5A220B553900603938 /* ChatTests */ = {
 			isa = PBXGroup;
 			children = (
 				4EDBCB5B220B553900603938 /* chatTests.swift */,
 				4EDBCB5D220B553900603938 /* Info.plist */,
 			);
-			path = chatTests;
+			path = ChatTests;
 			sourceTree = "<group>";
 		};
-		4EDBCB65220B553900603938 /* chatUITests */ = {
+		4EDBCB65220B553900603938 /* ChatUITests */ = {
 			isa = PBXGroup;
 			children = (
 				4EDBCB66220B553900603938 /* chatUITests.swift */,
 				4EDBCB68220B553900603938 /* Info.plist */,
 			);
-			path = chatUITests;
+			path = ChatUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4EDBCB3E220B553700603938 /* Build configuration list for PBXProject "chat" */;
+			buildConfigurationList = 4EDBCB3E220B553700603938 /* Build configuration list for PBXProject "Chat" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -476,7 +476,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chat.app/chat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chat.temp_caseinsensitive_rename.app/Chat.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -496,7 +496,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chat.app/chat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chat.temp_caseinsensitive_rename.app/Chat.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -541,7 +541,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EDBCB3E220B553700603938 /* Build configuration list for PBXProject "chat" */ = {
+		4EDBCB3E220B553700603938 /* Build configuration list for PBXProject "Chat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EDBCB69220B553900603938 /* Debug */,
